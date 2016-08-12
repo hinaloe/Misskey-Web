@@ -116,7 +116,7 @@ app.get('/manifest.json', (req, res) => {
 	res.sendFile(path.resolve(`${__dirname}/manifest.json`));
 });
 
-// public config
+// publicconfig
 app.get('/publicconfig.json', (req, res) => {
 	res.send(config.publicConfig);
 });
